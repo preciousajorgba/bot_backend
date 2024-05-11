@@ -616,7 +616,7 @@ var fruits = [];
 
 
 // Create a WebSocket server on port 3000
-const wss = new WebSocket.Server({ port:3002 });
+const wss = new WebSocket.Server({ port:8080 });
 
 // Subscribe to the WebSocket stream for Kline data
 binanceWS.candles(symbol, interval, (candle) => {
